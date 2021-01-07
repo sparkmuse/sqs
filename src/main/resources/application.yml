@@ -1,0 +1,12 @@
+cloud:
+  aws:
+    region:
+      static: "eu-west-1"
+      auto: false
+    stack:
+      auto: false
+
+logging:
+  level:
+    com.amazonaws.util.EC2MetadataUtils: error
+    com.amazonaws.internal.InstanceMetadataServiceResourceFetcher: error
